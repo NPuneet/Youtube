@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { YOUTUBE_VIDEOS_API } from "../utils/Constants";
-import VideoCard from "./Videocard";
+import Videocard from "./Videocard";
 
 const VideosContainer = () => {
   const [videos, setVideos] = useState([]);
@@ -18,7 +18,7 @@ const VideosContainer = () => {
   return (
     <div className="flex flex-wrap">
       {videos.map((video, index) => (
-        <VideoCard key={index} info={video} />
+        <Videocard key={index} info={video} />
       ))}
     </div>
   );
