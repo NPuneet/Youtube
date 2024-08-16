@@ -1,6 +1,6 @@
 import React from "react";
 
-const VideoCard = ({ info }) => {
+const Videocard = ({ info }) => {
   return (
     <div className="p-2 m-3 w-52 shadow-lg">
       <img
@@ -17,4 +17,4 @@ const VideoCard = ({ info }) => {
   );
 };
 
-export default VideoCard;
+export default Videocard;
